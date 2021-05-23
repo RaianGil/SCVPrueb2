@@ -19,6 +19,31 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-    </StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button Text="Warning"
+                    x:Name="btnPrueba1"
+                    HorizontalOptions="CenterAndExpand"
+                    StyleClass="btn-small"/>
+                
+                <Button Text="Warning"
+                    x:Name="btnPrueba3"
+                    
+                    HorizontalOptions="CenterAndExpand"
+                    StyleClass="btn-medium"/>
+                
+                <Button Text="Warning"
+                    x:Name="btnPrueba4"
+                    HorizontalOptions="CenterAndExpand"
+                    StyleClass="btn-large"/>
 
+                <Button Text="Warning"
+                    x:Name="btnPrueba2"
+                    StyleClass="bg-theme1"
+                    HorizontalOptions="CenterAndExpand"/>
+                <Entry Placeholder="Prueba de texto"
+                    />
+            </StackLayout>
+        </Grid>
+    </StackLayout>
 </ContentPage>

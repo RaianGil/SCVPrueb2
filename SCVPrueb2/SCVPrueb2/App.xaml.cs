@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SCVPrueb2.View;
 
 namespace SCVPrueb2
 {
@@ -10,7 +11,8 @@ namespace SCVPrueb2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainMenu();
+ 
         }
 
         protected override void OnStart()

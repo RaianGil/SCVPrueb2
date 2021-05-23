@@ -1,0 +1,15 @@
+.app-header {
+    background: #2196F3;
+    padding: 24;
+    margin-bottom: 10;
+}
+    .app-header > label {
+        font-size: 34;
+        color: #fff;
+        border-radius: 0;
+        text-align: center;
+    }
+.grid-content > button {
+    padding:30 100;
+}
+
