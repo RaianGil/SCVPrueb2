@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCVPrueb2.View.frmAddStudent">
+    <StackLayout x:Name="AddStudent">
+        <Frame>
+            <Label Text="Estudiantes"/>
+        </Frame>
+        <Grid StyleClass="grid-content">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Label Text="Nombre" Grid.Row="0" />
+            <Label Text="Apellido" Grid.Row="1" />
+            <Label Text="Carrera" Grid.Row="2" />
+            <Label Text="Matricula" Grid.Row="3" />
+
+            <Entry Placeholder="Ramon Arturo" Grid.Column="1" Grid.Row="0"/>
+            <Entry Placeholder="Rodriguez Pozo" Grid.Column="1" Grid.Row="1"/>
+            <Entry Placeholder="Ing. Software" Grid.Column="1" Grid.Row="2"/>
+            <Entry Placeholder="20211547" Grid.Column="1" Grid.Row="3"/>
+            
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

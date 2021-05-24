@@ -11,7 +11,7 @@ namespace SCVPrueb2
         {
             InitializeComponent();
 
-            MainPage = new MainMenu();
+            MainPage = new frmAddStudent();
  
         }
 

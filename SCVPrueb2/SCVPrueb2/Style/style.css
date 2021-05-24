@@ -10,8 +10,13 @@
         border-radius: 0;
         text-align: center;
     }
-.grid-content > button {
+#AddStudent > .grid-content > button {
     padding:30 150;
     text-align:left;
 }
+
+#AddStudent > .grid-content > Label {
+    padding: 20;
+}
+
 
