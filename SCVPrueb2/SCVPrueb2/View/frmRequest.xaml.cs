@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace SCVPrueb2.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Request : ContentPage
+    public partial class frmRequest : ContentPage
     {
-        public Request()
+        public frmRequest()
         {
             InitializeComponent();
         }

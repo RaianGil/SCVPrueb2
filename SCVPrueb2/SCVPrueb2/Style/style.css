@@ -10,13 +10,42 @@
         border-radius: 0;
         text-align: center;
     }
+/*AddStudent*/
+#AddStudent > .grid-content, .grid-main {
+    padding:10 20;
+}
 #AddStudent > .grid-content > button {
-    padding:30 150;
-    text-align:left;
+    padding: 30 150;
+    text-align: left;
 }
 
 #AddStudent > .grid-content > Label {
     padding: 20;
+    font-size: 20;
+    vertical-align:middle;
 }
 
+#AddStudent > .grid-content > Entry {
+    font-size: 20;
+}
 
+#AddStudent > .grid-main > Label {
+    font-size: 30;
+}
+
+#AddStudent > .grid-main > Button {
+    padding: 20 0;
+    background: blue;
+    color: white;
+    font-size: 15;
+}
+/*MainMenu*/
+
+/*Request*/
+#Request > .grid-content {
+
+}
+
+#Request > .app-header {
+    margin-bottom: 60;
+}

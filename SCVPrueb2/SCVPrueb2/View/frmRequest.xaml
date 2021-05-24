@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SCVPrueb2.View.frmRequest">
+             
+    <ContentPage.Content>
+
+        <StackLayout x:Name="Request" >
+            <Frame StyleClass="app-header">
+                <Label Text="Consultar"
+                    HorizontalOptions="Center" />
+            </Frame>
+
+            <StackLayout>
+                <Grid StyleClass="grid-content">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Consulta" Grid.Row="0"/>
+
+                    <Entry Placeholder="Consulte Aqui" Grid.Column="1" Grid.Row="0"/>
+                </Grid>
+           
+
+                <Picker Title="Consultar Datos" Margin="10, 0"
+                 SelectedIndexChanged="Picker_SelectedIndexChanged">
+
+                    <Picker.Items>
+                        <x:String>Nombre</x:String>
+                        <x:String>Carrera</x:String>
+                        <x:String>Matricula</x:String>
+                    </Picker.Items>
+
+                </Picker>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
