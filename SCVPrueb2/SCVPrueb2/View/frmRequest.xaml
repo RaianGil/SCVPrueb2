@@ -22,7 +22,7 @@
 
                     <Label Text="Consulta" Grid.Row="0"/>
 
-                    <Entry Placeholder="Consulte Aqui" Grid.Column="1" Grid.Row="0"/>
+                    <SearchBar Placeholder="Buscar..." Grid.Column="1" Grid.Row="0"/>
                 </Grid>
            
 
@@ -36,6 +36,17 @@
                     </Picker.Items>
 
                 </Picker>
+
+                <Grid StyleClass="grid-content">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry Placeholder="Estudiantes..." Grid.Row="1" Grid.Column="1" IsEnabled="False"/>
+                </Grid>
+
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
