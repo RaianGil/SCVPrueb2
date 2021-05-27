@@ -26,6 +26,7 @@
            
                 <Picker Title="Consultar Datos" Margin="10, 0"
                  SelectedIndexChanged="Picker_SelectedIndexChanged">
+                 
 
                     <Picker.Items>
                         <x:String>Nombre</x:String>
@@ -43,6 +44,7 @@
                         <ColumnDefinition Width="90"/>
                     </Grid.ColumnDefinitions>
                     <Entry Placeholder="Estudiantes..." Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
+                   
                 </Grid>
 
             </StackLayout>

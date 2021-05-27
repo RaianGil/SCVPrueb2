@@ -10,9 +10,10 @@
         <Grid>
             <StackLayout StyleClass="grid-content"
                          HorizontalOptions="CenterAndExpand">
-                <Button Text="Agregar Estudiante"/>
-                <Button Text="Consulta"/>
-                <Button Text="Salir"/>
+                <Button x:Name="btnAddstudent" Clicked="btnAddstudent_Clicked"  Text="Agregar Estudiante"/>
+                <Button x:Name="btnConsulta" Clicked="btnConsulta_Clicked" Text="Consulta"/>
+                <Button x:Name="btnSalir" Clicked="btnSalir_Clicked" Text="Salir"/>
+                
             </StackLayout>
         </Grid>
     </StackLayout>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace SCVPrueb2.View
 {
@@ -12,7 +13,22 @@ namespace SCVPrueb2.View
     {
         public MainMenu()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private void btnAddstudent_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new frmAddStudent());
+        }
+
+        private void btnConsulta_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new frmRequest());
+        }
+
+        private void btnSalir_Clicked(object sender, EventArgs e)
+        {
+            
         }
     }
 }
