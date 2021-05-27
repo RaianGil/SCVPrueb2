@@ -46,6 +46,21 @@
 
 }
 
+#Request > .grid-content > Entry{
+    font-size 20;
+    text-align left;
+
+}
 #Request > .app-header {
     margin-bottom: 60;
 }
+
+#Request > .grid-content > SearchBar{
+   font-size 20;
+
+}
+#AddStudent > .grid-content > .grid-main{
+    padding 10, 20;
+}
+
+
