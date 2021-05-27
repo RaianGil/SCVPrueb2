@@ -19,13 +19,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="100"/>
                     </Grid.ColumnDefinitions>
-
                     <Label Text="Consulta" Grid.Row="0"/>
-
+                    
                     <SearchBar Placeholder="Buscar..." Grid.Column="1" Grid.Row="0"/>
                 </Grid>
            
-
                 <Picker Title="Consultar Datos" Margin="10, 0"
                  SelectedIndexChanged="Picker_SelectedIndexChanged">
 
@@ -44,7 +42,7 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="90"/>
                     </Grid.ColumnDefinitions>
-                    <Entry Placeholder="Estudiantes..." Grid.Row="1" Grid.Column="1" IsEnabled="False"/>
+                    <Entry Placeholder="Estudiantes..." Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
                 </Grid>
 
             </StackLayout>
