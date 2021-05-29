@@ -47,8 +47,8 @@
 }
 
 #Request > .grid-content > Entry{
-    font-size 20;
-    text-align left;
+    font-size: 20;
+    text-align: left;
 
 }
 #Request > .app-header {
@@ -56,11 +56,11 @@
 }
 
 #Request > .grid-content > SearchBar{
-   font-size 20;
+   font-size: 20;
 
 }
 #AddStudent > .grid-content > .grid-main{
-    padding 10, 20;
+    padding: 10 20;
 }
 
 
